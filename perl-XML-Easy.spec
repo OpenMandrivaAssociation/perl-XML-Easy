@@ -73,3 +73,14 @@ rm -rf %buildroot
 %perl_vendorlib/*
 
 
+
+
+%changelog
+* Wed Jan 25 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 0.8.0-2
++ Revision: 768358
+- svn commit -m mass rebuild of perl extension against perl 5.14.2
+
+* Sun May 15 2011 Guillaume Rousse <guillomovitch@mandriva.org> 0.8.0-1
++ Revision: 674853
+- import perl-XML-Easy
+
