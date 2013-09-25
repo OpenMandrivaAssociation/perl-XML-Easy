@@ -1,15 +1,15 @@
 %define upstream_name    XML-Easy
-%define upstream_version 0.008
+%define upstream_version 0.009
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:	2
+Release:	1
 
 Summary:    Basic manipulation of XML data nodes
 License:    GPL+ or Artistic
 Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
-Source0:    http://www.cpan.org/modules/by-module/XML/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:    http://www.cpan.org/modules/by-module/XML/XML-Easy-%{upstream_version}.tar.gz
 
 BuildRequires: perl(Encode)
 BuildRequires: perl(Exporter)
@@ -83,4 +83,5 @@ rm -rf %buildroot
 * Sun May 15 2011 Guillaume Rousse <guillomovitch@mandriva.org> 0.8.0-1
 + Revision: 674853
 - import perl-XML-Easy
+
 
