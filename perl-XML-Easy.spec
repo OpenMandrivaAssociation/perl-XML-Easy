@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:	2
+Release:	3
 
 Summary:    Basic manipulation of XML data nodes
 License:    GPL+ or Artistic
