@@ -1,15 +1,13 @@
 %define upstream_name    XML-Easy
-%define upstream_version 0.014
-
 Name:       perl-%{upstream_name}
-Version:    %{upstream_version}
-Release:	1
+Version:    0.014
+Release:	2
 
 Summary:    Basic manipulation of XML data nodes
 License:    GPL+ or Artistic
 Group:      Development/Perl
 Url:        https://github.com/jkeenan/p5-XML-Easy
-Source0:    https://cpan.metacpan.org/authors/id/J/JK/JKEENAN/XML-Easy-%{upstream_version}.tar.gz
+Source0:    https://cpan.metacpan.org/authors/id/J/JK/JKEENAN/XML-Easy-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires: perl(Encode)
@@ -50,7 +48,7 @@ XML::Easy::Text manpage module supplies a parser and a serialiser. The
 interfaces here, too, are functional in nature.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
